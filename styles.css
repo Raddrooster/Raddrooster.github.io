@@ -370,6 +370,61 @@ footer .socials a {
 footer .socials a:hover {
     color: #2196F3; /* Blue */
 }
+/* Portfolio Section */
+#portfolio {
+    background: #1E1E1E;
+    padding: 60px 0;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.portfolio-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.portfolio-item {
+    width: 45%;
+    background: #2C2C2C;
+    margin-bottom: 40px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.portfolio-item .btn {
+    padding: 10px 20px;
+    background: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.portfolio-item .btn:hover {
+    background: #1976D2;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
