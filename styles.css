@@ -4,7 +4,8 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
-    background-color: #f0f0f0;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* Default text color */
 }
 
 a {
@@ -18,13 +19,14 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    color: #fff; /* Ensure headings are visible on dark background */
 }
 
 /* Navigation */
 #navbar {
     position: fixed;
     width: 100%;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.95);
     z-index: 999;
 }
 
@@ -59,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #menu li a:hover {
-    color: #e91e63;
+    color: #2196F3; /* Blue */
 }
 
 /* Home Section */
@@ -87,12 +89,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-content h1 span {
-    color: #e91e63;
+    color: #2196F3; /* Blue */
 }
 
 .home-content .btn {
     padding: 15px 30px;
-    background: #e91e63;
+    background: #2196F3; /* Blue */
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -101,12 +103,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-content .btn:hover {
-    background: #d81b60;
+    background: #1976D2; /* Darker Blue */
 }
 
 /* About Section */
 #about {
-    background: #fff;
+    background: #121212; /* Dark background */
 }
 
 .about-wrapper {
@@ -128,20 +130,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-right h2 {
     font-size: 36px;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
 }
 
 .about-right p {
     font-size: 18px;
     line-height: 1.6;
-    color: #555;
+    color: #ccc;
     margin-bottom: 30px;
 }
 
 .about-right .btn {
     padding: 10px 25px;
-    background: #e91e63;
+    background: #2196F3; /* Blue */
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -149,18 +151,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-right .btn:hover {
-    background: #d81b60;
+    background: #1976D2; /* Darker Blue */
 }
 
 /* Projects Section */
 #projects {
-    background: #f9f9f9;
+    background: #1E1E1E; /* Slightly lighter dark */
 }
 
 #projects h2 {
     text-align: center;
     font-size: 36px;
-    color: #333;
+    color: #fff;
     margin-bottom: 50px;
 }
 
@@ -175,9 +177,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .project {
     width: 45%;
-    background: #fff;
+    background: #2C2C2C; /* Dark gray */
     margin-bottom: 40px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .project-image img {
@@ -191,26 +193,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-content h3 {
     font-size: 24px;
-    color: #333;
+    color: #fff;
     margin-bottom: 15px;
 }
 
-.project-content p {
+.project-content p, .project-content ul {
     font-size: 16px;
-    color: #555;
+    color: #ccc;
     margin-bottom: 20px;
 }
 
 .project-content ul {
     list-style-type: disc;
     margin-left: 20px;
-    margin-bottom: 20px;
-    color: #555;
 }
 
 .project-content .btn {
     padding: 10px 20px;
-    background: #e91e63;
+    background: #2196F3; /* Blue */
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -218,18 +218,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-content .btn:hover {
-    background: #d81b60;
+    background: #1976D2; /* Darker Blue */
 }
 
 /* Experience Section */
 #experience {
-    background: #fff;
+    background: #121212; /* Dark background */
 }
 
 #experience h2 {
     text-align: center;
     font-size: 36px;
-    color: #333;
+    color: #fff;
     margin-bottom: 50px;
 }
 
@@ -245,31 +245,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .experience h3 {
     font-size: 24px;
-    color: #e91e63;
+    color: #2196F3; /* Blue */
     margin-bottom: 10px;
 }
 
 .experience h4 {
     font-size: 18px;
-    color: #777;
+    color: #ccc;
     margin-bottom: 15px;
 }
 
 .experience ul {
     list-style-type: disc;
     margin-left: 20px;
-    color: #555;
+    color: #ccc;
 }
 
 /* Skills Section */
 #skills {
-    background: #f9f9f9;
+    background: #1E1E1E; /* Slightly lighter dark */
 }
 
 #skills h2 {
     text-align: center;
     font-size: 36px;
-    color: #333;
+    color: #fff;
     margin-bottom: 30px;
 }
 
@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills-wrapper h3 {
     font-size: 24px;
-    color: #e91e63;
+    color: #2196F3; /* Blue */
     margin-bottom: 20px;
 }
 
@@ -300,24 +300,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill i {
     font-size: 60px;
-    color: #e91e63;
+    color: #2196F3; /* Blue */
     margin-bottom: 10px;
 }
 
 .skill p {
     font-size: 16px;
-    color: #555;
+    color: #ccc;
 }
 
 /* Contact Section */
 #contact {
-    background: #fff;
+    background: #121212; /* Dark background */
 }
 
 #contact h2 {
     text-align: center;
     font-size: 36px;
-    color: #333;
+    color: #fff;
     margin-bottom: 30px;
 }
 
@@ -330,13 +330,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-wrapper p {
     font-size: 18px;
-    color: #555;
+    color: #ccc;
     margin-bottom: 10px;
 }
 
 .contact-wrapper i {
-    color: #e91e63;
+    color: #2196F3; /* Blue */
     margin-right: 10px;
+}
+
+.contact-wrapper a {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.contact-wrapper a:hover {
+    color: #1976D2; /* Darker Blue */
 }
 
 /* Footer */
@@ -359,7 +368,7 @@ footer .socials a {
 }
 
 footer .socials a:hover {
-    color: #e91e63;
+    color: #2196F3; /* Blue */
 }
 
 /* Responsive Styles */
