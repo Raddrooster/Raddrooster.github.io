@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <!-- Logo Placeholder -->
+                <a href="#home">Your Logo</a>
+            </div>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Your Name</span></h1>
+            <h2>A <span id="typing"></span></h2>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="about-left">
+                <img src="images/your-photo.jpg" alt="Your Photo">
+            </div>
+            <div class="about-right">
+                <h2>About Me</h2>
+                <p>Insert your bio here. Talk about your background, experience, and what makes you unique.</p>
+                <a href="your-resume.pdf" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-wrapper">
+            <!-- Project 1 -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project1.jpg" alt="Project 1">
+                </div>
+                <div class="project-content">
+                    <h3>Project Title 1</h3>
+                    <p>Short description of the project.</p>
+                    <a href="https://github.com/yourusername/project1" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project2.jpg" alt="Project 2">
+                </div>
+                <div class="project-content">
+                    <h3>Project Title 2</h3>
+                    <p>Short description of the project.</p>
+                    <a href="https://github.com/yourusername/project2" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <!-- Add more skills -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-wrapper">
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" required autocomplete="off">
+                    <label>Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="_replyto" required autocomplete="off">
+                    <label>Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" required></textarea>
+                    <label>Message</label>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Add more social icons -->
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
