@@ -1,6 +1,6 @@
 // Typing effect for the home section
 const typingElement = document.getElementById('typing');
-const words = ['Web Developer.', 'Designer.', 'Creator.']; // Add words that describe you
+const words = ['Information Systems Security Officer.', 'Java Developer.', 'Helpdesk Specialist.', 'Cybersecurity Enthusiast.'];
 let wordIndex = 0;
 let letterIndex = 0;
 let currentWord = '';
