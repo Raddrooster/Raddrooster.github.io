@@ -201,6 +201,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+.project-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
 .project-content .btn {
     padding: 10px 20px;
     background: #e91e63;
@@ -214,24 +221,75 @@ h1, h2, h3, h4, h5, h6 {
     background: #d81b60;
 }
 
-/* Skills Section */
-#skills {
+/* Experience Section */
+#experience {
     background: #fff;
 }
 
-#skills h2 {
+#experience h2 {
     text-align: center;
     font-size: 36px;
     color: #333;
     margin-bottom: 50px;
 }
 
+.experience-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.experience {
+    margin-bottom: 40px;
+}
+
+.experience h3 {
+    font-size: 24px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.experience h4 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    background: #f9f9f9;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
 .skills-wrapper {
     max-width: 1000px;
     margin: auto;
+    padding: 0 5%;
+}
+
+.skills-wrapper h3 {
+    font-size: 24px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.skill-set {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .skill {
@@ -253,73 +311,32 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact Section */
 #contact {
-    background: #f9f9f9;
+    background: #fff;
 }
 
 #contact h2 {
     text-align: center;
     font-size: 36px;
     color: #333;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contact-wrapper {
     max-width: 600px;
     margin: auto;
     padding: 0 5%;
+    text-align: center;
 }
 
-.contact-wrapper form {
-    display: flex;
-    flex-direction: column;
+.contact-wrapper p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
 }
 
-.form-group {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 15px;
-    border: none;
-    border-bottom: 2px solid #ccc;
-    outline: none;
-    font-size: 16px;
-    background: transparent;
-    color: #333;
-}
-
-.form-group label {
-    position: absolute;
-    top: 18px;
-    left: 15px;
-    font-size: 16px;
-    color: #aaa;
-    transition: all 0.3s ease;
-    pointer-events: none;
-}
-
-.form-group input:focus + label,
-.form-group textarea:focus + label,
-.form-group input:not(:placeholder-shown) + label,
-.form-group textarea:not(:placeholder-shown) + label {
-    top: -10px;
-    font-size: 12px;
+.contact-wrapper i {
     color: #e91e63;
-}
-
-.contact-wrapper .btn {
-    padding: 15px;
-    background: #e91e63;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.contact-wrapper .btn:hover {
-    background: #d81b60;
+    margin-right: 10px;
 }
 
 /* Footer */
