@@ -25,7 +25,7 @@ function type() {
             isDeleting = true;
         }
     }
-    const speed = isEnd ? 2000 : isDeleting ? 100 : 200;
+    const speed = isEnd ? 200 : isDeleting ? 100 : 200;
     setTimeout(type, speed);
 }
 
